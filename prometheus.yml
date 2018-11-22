@@ -29,5 +29,5 @@ scrape_configs:
     - targets: ['localhost:9090']
   - job_name: 'nginx'
     static_configs:
-    - targets: ['localhost:4040']
+    - targets: ['10.5.0.100:4040']
 
