@@ -26,4 +26,8 @@ namespace "nginx" {
    from = "bucket_name"
    // whitelist = ["-", "user1", "user2"]
  }
+  
+ relabel "host" {
+   from = "host"
+ }
 }
